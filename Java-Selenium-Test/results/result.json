@@ -1,0 +1,173 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8335863101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4429667900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchBlazeDemo()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the Confirmation id for the successful booking",
+        "description": "",
+        "id": "user-should-be-able-to;verify-the-confirmation-id-for-the-successful-booking",
+        "after": [
+          {
+            "result": {
+              "duration": 5280399801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 606450101,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigated successfully to website",
+            "match": {
+              "location": "BlazeDemoSteps.I_Navigated_Successfully_To_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 526091800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select departure city as \"Boston\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boston",
+                  "offset": 28
+                }
+              ],
+              "location": "BlazeDemoSteps.I_Select_Departure_City_As(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208447401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select destination city as \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 30
+                }
+              ],
+              "location": "BlazeDemoSteps.I_Select_Destination_City_As(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 740124499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Find Flights button",
+            "match": {
+              "location": "BlazeDemoSteps.I_Click_On_Find_Flights_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995756100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Choose This Flight button for Flight \"43\" on Reservation Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "43",
+                  "offset": 49
+                }
+              ],
+              "location": "BlazeDemoSteps.I_Click_On_Choose_This_Flight_Button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2071190499,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Purchase Flight button",
+            "match": {
+              "location": "BlazeDemoSteps.I_Click_On_Purchase_Flight_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100682900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Print the Confirmation id on Confirmation Page",
+            "match": {
+              "location": "BlazeDemoSteps.Print_The_Confirmation_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BlazeDemo"
+          },
+          {
+            "name": "@New"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to",
+    "description": "",
+    "id": "user-should-be-able-to",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/maersk/Features/BlazeDemo.feature",
+    "tags": [
+      {
+        "name": "@BlazeDemo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
